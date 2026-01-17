@@ -1891,6 +1891,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "gamma-launcher"
+version = "0.1.0"
+dependencies = [
+ "gpui",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2114,13 +2121,6 @@ dependencies = [
  "zed-font-kit",
  "zed-scap",
  "zed-xim",
-]
-
-[[package]]
-name = "gpui-launcher"
-version = "0.1.0"
-dependencies = [
- "gpui",
 ]
 
 [[package]]
